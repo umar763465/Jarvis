@@ -71,6 +71,6 @@ if __name__ == "__main__":
         except sr.UnknownValueError:
             print("Could not understand. Waiting for word 'Jarvis' again...")
         except sr.RequestError:
-            print("Network error. Waiting...")
+            print("Network error. Waiting....")
 
         time.sleep(0.2)
